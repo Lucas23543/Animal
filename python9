@@ -6,6 +6,10 @@ class Animal():
         self.__nome = nome
         self.__peso = peso
 
+    def __int__(self):
+        return f"Nome: {self.nome}\nPeso: {self.peso:2f}"
+
+    def
 
     def alimentar(self, comida):
         self.peso += comida
